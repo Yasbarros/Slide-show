@@ -1,2 +1,2 @@
 # Slide-show
-Slide programado com Php 
+Slide programado com JavaScript
