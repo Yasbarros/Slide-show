@@ -1,0 +1,66 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+body{
+	background: linear-gradient(0.25turn, #335f72, #ebf8e1, #6e461b);
+	font-family: 'Kosugi', sans-serif;
+}
+.contencao{
+	margin: 100px auto 40px auto;
+	width: 1100px;
+	height: 732px;
+	background: #000;
+	overflow: hidden;
+}
+#imageBg{
+	width: 1100px;
+	height: 732px;
+	background-size: cover;
+	transition: 1s;
+}
+.anterior, .proximo{
+	position: relative;
+	margin-top: -426px;
+	width: 65px;
+	height: 120px;
+	background-color: rgba(44,62,80, .4);
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+	line-height: 120px;
+	cursor: pointer;
+}
+.anterior{
+	float: left;
+}
+.proximo{
+	float: right;
+}
+.contencao:hover .anterior{
+	background-color: rgba(44,62,80, .7);
+}
+.contencao:hover .proximo{
+	background-color: rgba(44,62,80, .7);
+}
+.anterior:hover{
+	background-color: rgba(44,62,80, .9) !important;
+}
+.proximo:hover{
+	background-color: rgba(44,62,80, .9) !important;
+}
+ul{
+	list-style: none;
+	width: 150px;
+	display: flex;
+}
+ul li{
+	background: #131B22;
+	width: 20px;
+	height: 20px;
+	border-radius: 100px;
+	cursor: pointer;
+}
+.selected{
+	background: #2bbbc0;
+}
